@@ -22,6 +22,11 @@ nav ul li {
     margin: auto;
 }
 
+p {
+    animation-duration: 5s;
+    animation-name: efectomaintext ;
+}
+
 /* clases globales */
 
 
@@ -225,15 +230,38 @@ nav ul li {
     margin: 5px;
 }
 
-.tarjeta_boton_e:hover{
+/* Animaciones */
+
+.tarjeta_boton_e:hover {
     background-color: blue;
+    scale: 1.1;
+}
+
+.nav_e:hover {
+    scale: 1.5;
+}
+
+.header_e:hover {
+    scale: 1.5;
+}
+
+@keyframes efectomaintext {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 /* mediaqueries */
 
-/* Mobile 992px */
+/* Mobile 1200px */
 
-@media(max-width: 992px) {
+@media(max-width: 1200px) {
     .mains {
         height: 80vh;
         border: 3px solid;
@@ -280,7 +308,7 @@ nav ul li {
         margin: 15px;
     }
 
-    .img_mobile{
+    .img_mobile {
         height: 300px;
         width: 100%;
     }
@@ -294,7 +322,7 @@ nav ul li {
         justify-content: space-between;
     }
 
-    .recetas_vid{
+    .recetas_vid {
         height: 200px;
         width: 350px;
         margin-left: 30px;
