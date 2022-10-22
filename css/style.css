@@ -181,6 +181,7 @@ p {
 }
 
 /*  Sucursales */
+
 .sucursales {
     text-align: center;
     text-decoration: underline;
@@ -235,10 +236,6 @@ p {
 .tarjeta_boton_e:hover {
     background-color: blue;
     scale: 1.1;
-}
-
-.productoficha:hover {
-    scale: 0.95;
 }
 
 .nav_e:hover {
@@ -332,7 +329,7 @@ p {
         margin-left: 30px;
     }
 
-    .sucursales{
+    .sucursales {
         height: auto;
         width: auto;
         display: grid;
@@ -340,15 +337,52 @@ p {
         justify-content: center;
     }
 
-    .sucursales_mobile{
+    .sucursales_mobile {
         display: grid;
         column-gap: 20px;
         height: auto;
         object-fit: contain;
     }
 
-    .maps_mobile{
+    .maps_mobile {
         display: grid;
         width: fit-content;
+    }
+
+    .formulario {
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        grid-template-rows: repeat(1 1fr);
+        justify-content: center;
+    }
+
+    .formulario_name{
+        display: grid;
+        width: 100%;
+    }
+
+    .formulario_email {
+        display: grid;
+        grid-row: 2/3;
+        width: 100%;
+    }
+
+    .formulario_select {
+        display: grid;
+        grid-row: 3/4;
+        width: 100%;
+    }
+
+    .formulario_consulta {
+        display: grid;
+        grid-row: 4/5;
+        width: 100%;
+    }
+
+    .boton_mobile {
+        display: grid;
+        grid-row: 5/6;
+        width: 100%;
+        justify-items: center;
     }
 }
