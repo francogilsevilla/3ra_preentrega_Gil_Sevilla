@@ -9,8 +9,7 @@
 header h2 {
   margin-top: 10px;
 }
-
-a {
+header a {
   color: black;
 }
 
@@ -20,6 +19,10 @@ nav ul li {
   margin: auto;
 }
 nav ul li a {
+  color: black;
+}
+
+footer a {
   color: black;
 }
 
@@ -40,7 +43,58 @@ p {
   justify-self: center;
   overflow: auto;
 }
+.mains .main__titulo {
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 15px;
+  background-color: grey;
+  border: 3px solid;
+  border-color: black;
+  padding: 10px;
+}
+.mains .main__subtitulo {
+  width: auto;
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  background-color: grey;
+}
+.mains .main__text {
+  width: auto;
+  height: 200px;
+  overflow: hidden;
+  color: black;
+  background-color: grey;
+  margin: 200px;
+}
 
+/* Animaciones */
+.tarjeta_boton_e:hover {
+  background-color: blue;
+  scale: 1.1;
+}
+
+.nav_e:hover {
+  scale: 1.5;
+}
+
+.header_e:hover {
+  scale: 1.5;
+}
+
+@keyframes efectomaintext {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .allfooter {
   width: 100%;
   height: 110px;
@@ -115,13 +169,95 @@ p {
   background-color: grey;
 }
 
-.main__text {
+/* Productos */
+.tarjetas {
+  color: rgb(0, 0, 0);
+  height: auto;
   width: auto;
-  height: 200px;
-  overflow: hidden;
-  color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productoficha {
+  border: 5px solid;
+  border-color: rgb(0, 0, 0);
+  margin: 5px;
+}
+
+.tarjeta_texto {
+  text-align: center;
+  color: rgb(0, 0, 0);
   background-color: grey;
-  margin: 200px;
+}
+
+.tarjeta_boton {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 5px;
+}
+
+/* Recetas  */
+.recetas {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*  Sucursales */
+.sucursales {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* contacto */
+.formulario {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario_name {
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: black;
+}
+
+.formulario_email {
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: black;
+}
+
+.formulario_select {
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: black;
+}
+
+.formulario_consulta {
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

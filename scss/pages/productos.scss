@@ -1,0 +1,28 @@
+/* Productos */
+
+.tarjetas {
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.productoficha {
+    border: 5px solid;
+    border-color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.tarjeta_texto {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: grey;
+}
+
+.tarjeta_boton {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 5px;
+}

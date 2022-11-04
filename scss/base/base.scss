@@ -11,23 +11,31 @@
 // tags //
 
 header {
-    h2{
+    h2 {
         margin-top: 10px;
     }
-}
-
-a {
-    color: $color_3;
-}
-
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: auto;
     a {
         color: $color_3;
     }
 }
+
+nav {
+    ul li {
+        display: inline-block;
+        list-style: none;
+        margin: auto;
+        a {
+            color: $color_3;
+        }
+    }
+}
+
+footer{
+    a {
+        color: $color_3;
+    }
+}
+
 
 p {
     animation-duration: 5s;
@@ -45,4 +53,62 @@ p {
     background-attachment: fixed;
     justify-self: center;
     overflow: auto;
+
+    .main__titulo {
+        margin-top: 10px;
+        color: $color_3;
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 15px;
+        background-color: $color_1;
+        border: 3px solid;
+        border-color: $color_3;
+        padding: 10px;
+    }
+
+    .main__subtitulo {
+        width: auto;
+        color: $color_3;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 15px;
+        background-color: $color_1;
+    }
+
+    .main__text {
+        width: auto;
+        height: 200px;
+        overflow: hidden;
+        color: $color_3;
+        background-color: $color_1;
+        margin: 200px;
+    }
+
+}
+
+/* Animaciones */
+
+.tarjeta_boton_e:hover {
+    background-color: $color_4;
+    scale: 1.1;
+}
+
+.nav_e:hover {
+    scale: 1.5;
+}
+
+.header_e:hover {
+    scale: 1.5;
+}
+
+@keyframes efectomaintext {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
