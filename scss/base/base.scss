@@ -1,0 +1,30 @@
+//reset//
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+// tags //
+
+header h2 {
+    margin-top: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: auto;
+}
+
+p {
+    animation-duration: 5s;
+    animation-name: efectomaintext;
+}
