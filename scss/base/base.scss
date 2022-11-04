@@ -11,9 +11,11 @@
 // tags //
 
 header {
+
     h2 {
         margin-top: 10px;
     }
+
     a {
         color: $color_3;
     }
@@ -24,13 +26,14 @@ nav {
         display: inline-block;
         list-style: none;
         margin: auto;
+
         a {
             color: $color_3;
         }
     }
 }
 
-footer{
+footer {
     a {
         color: $color_3;
     }
