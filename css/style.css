@@ -1,391 +1,127 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* tags */
-
 header h2 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 a {
-    color: rgb(0, 0, 0);
+  color: black;
 }
 
 nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: auto;
+  display: inline-block;
+  list-style: none;
+  margin: auto;
+}
+nav ul li a {
+  color: black;
 }
 
 p {
-    animation-duration: 5s;
-    animation-name: efectomaintext;
+  animation-duration: 5s;
+  animation-name: efectomaintext;
 }
-
-/* clases globales */
-
-
-/* fondo_pagina */
 
 .mains {
-    height: 60vw;
-    border: 3px solid;
-    background-color: grey;
-    border-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    justify-self: center;
-    overflow: auto;
-}
-
-/* todos_los_titulos_del_header */
-
-.allheaderstittle {
-    width: 100%;
-    height: 50px;
-    border: 3px solid;
-    border-color: black;
-    background-color: gray;
-    display: flex;
-    justify-content: space-between;
-    border-image-width: 0px;
-}
-
-/* titulos_main */
-
-.main__titulo {
-    margin-top: 10px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 15px;
-    background-color: grey;
-    border: 3px solid;
-    border-color: rgba(0, 0, 0, 0.863);
-    padding: 10px;
-}
-
-/* barra_de_navegacion */
-
-.navs {
-    width: 100%;
-    height: 30px;
-    border: 3px solid;
-    border-color: black;
-    background-color: rgb(245, 11, 11);
-    display: flex;
-}
-
-.main__subtitulo {
-    width: auto;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 15px;
-    background-color: grey;
-
-}
-
-.main__text {
-    width: auto;
-    height: 200px;
-    overflow: hidden;
-    color: rgb(0, 0, 0);
-    background-color: grey;
-    margin: 200px;
+  height: 60vw;
+  border: 3px solid;
+  background-color: grey;
+  border-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  justify-self: center;
+  overflow: auto;
 }
 
 .allfooter {
-    width: 100%;
-    height: 110px;
-    border: 3px solid;
-    border-color: black;
-    background-color: grey;
-    position: relative;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 100%;
+  height: 110px;
+  border: 3px solid;
+  border-color: black;
+  background-color: grey;
+  position: relative;
+  bottom: 0;
 }
 
 .footer_titulo {
-    text-align: center;
-    margin-bottom: 1px;
-    text-decoration: underline;
+  text-align: center;
+  margin-bottom: 1px;
+  text-decoration: underline;
 }
 
 .footer_whatsapp {
-    width: auto;
-    height: 30px;
-    display: flex;
-    align-content: center;
-    padding: 2px;
+  width: auto;
+  height: 30px;
+  display: flex;
+  align-content: flex-end;
+  padding: 2px;
 }
 
 .footer_instagram {
-    width: auto;
-    height: 30px;
-    background-color: grey;
-    display: flex;
-    align-content: flex-start;
-    padding: 2px;
+  width: auto;
+  height: 30px;
+  background-color: grey;
+  display: flex;
+  align-content: flex-start;
+  padding: 2px;
 }
 
-/* contacto */
-
-.formulario {
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.allheaderstittle {
+  width: 100%;
+  height: 50px;
+  border: 3px solid;
+  border-color: black;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  border-image-width: 0px;
 }
 
-.formulario_name {
-    text-align: center;
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid;
-    border-color: rgb(0, 0, 0);
+.navs {
+  width: 100%;
+  height: 30px;
+  border: 3px solid;
+  border-color: black;
+  background-color: red;
+  display: flex;
 }
 
-.formulario_email {
-    text-align: center;
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid;
-    border-color: rgb(0, 0, 0);
+.main__titulo {
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 15px;
+  background-color: grey;
+  border: 3px solid;
+  border-color: black;
+  padding: 10px;
 }
 
-.formulario_select {
-    text-align: center;
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid;
-    border-color: rgb(0, 0, 0);
+.main__subtitulo {
+  width: auto;
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  background-color: grey;
 }
 
-.formulario_consulta {
-    text-align: center;
-    width: 300px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid;
-    border-color: rgb(0, 0, 0);
+.main__text {
+  width: auto;
+  height: 200px;
+  overflow: hidden;
+  color: black;
+  background-color: grey;
+  margin: 200px;
 }
 
-/*  Sucursales */
-
-.sucursales {
-    text-align: center;
-    text-decoration: underline;
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-/* Recetas  */
-
-.recetas {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    text-decoration: underline;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-/* Productos */
-
-.tarjetas {
-    color: rgb(0, 0, 0);
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.productoficha {
-    border: 5px solid;
-    border-color: rgb(0, 0, 0);
-    margin: 5px;
-}
-
-.tarjeta_texto {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: grey;
-}
-
-.tarjeta_boton {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin: 5px;
-}
-
-/* Animaciones */
-
-.tarjeta_boton_e:hover {
-    background-color: blue;
-    scale: 1.1;
-}
-
-.nav_e:hover {
-    scale: 1.5;
-}
-
-.header_e:hover {
-    scale: 1.5;
-}
-
-@keyframes efectomaintext {
-    from {
-        margin-left: 100%;
-        width: 300%
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-/* mediaqueries */
-
-/* Mobile 1200px */
-
-@media(max-width: 1200px) {
-    .mains {
-        height: 80vh;
-        border: 3px solid;
-        background-color: grey;
-        border-color: black;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-    }
-
-    .main__text {
-        height: auto;
-        width: 50%;
-        margin: auto;
-        margin-top: 50px;
-    }
-
-    .allfooter {
-        width: 100%;
-        height: 110px;
-        border: 3px solid;
-        border-color: black;
-        background-color: grey;
-        position: absolute;
-        bottom: 0;
-    }
-
-    .tarjetas {
-        color: rgb(0, 0, 0);
-        height: auto;
-        width: auto;
-        display: grid;
-        grid-template-columns: repeat(1 1fr);
-    }
-
-    .productoficha {
-        display: grid;
-        object-fit: contain;
-        width: auto;
-        height: auto;
-        border: 5px solid;
-        border-color: rgb(0, 0, 0);
-        margin: 15px;
-    }
-
-    .img_mobile {
-        height: 300px;
-        width: 100%;
-    }
-
-    .recetas {
-        color: rgb(0, 0, 0);
-        text-align: center;
-        text-decoration: underline;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .recetas_vid {
-        height: 200px;
-        width: 350px;
-        margin-left: 30px;
-    }
-
-    .sucursales {
-        height: auto;
-        width: auto;
-        display: grid;
-        grid-template-rows: repeat(1 1fr);
-        justify-content: center;
-    }
-
-    .sucursales_mobile {
-        display: grid;
-        column-gap: 20px;
-        height: auto;
-        object-fit: contain;
-    }
-
-    .maps_mobile {
-        display: grid;
-        width: fit-content;
-    }
-
-    .formulario {
-        display: grid;
-        grid-template-columns: repeat(1 1fr);
-        grid-template-rows: repeat(1 1fr);
-        justify-content: center;
-    }
-
-    .formulario_name{
-        display: grid;
-        width: 100%;
-    }
-
-    .formulario_email {
-        display: grid;
-        grid-row: 2/3;
-        width: 100%;
-    }
-
-    .formulario_select {
-        display: grid;
-        grid-row: 3/4;
-        width: 100%;
-    }
-
-    .formulario_consulta {
-        display: grid;
-        grid-row: 4/5;
-        width: 100%;
-    }
-
-    .boton_mobile {
-        display: grid;
-        grid-row: 5/6;
-        width: 100%;
-        justify-items: center;
-    }
-}
+/*# sourceMappingURL=style.css.map */
