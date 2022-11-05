@@ -1,28 +1,50 @@
 /* Productos */
 
 .tarjetas {
-    color: rgb(0, 0, 0);
+    color: $color_3;
     height: auto;
     width: auto;
     display: flex;
     flex-wrap: wrap;
 
+    @include mobile-lg {
+        color: $color_3;
+        height: auto;
+        width: auto;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1 1fr);
+    }
 }
 
 .productoficha {
-    border: 5px solid;
-    border-color: rgb(0, 0, 0);
+    border: 3px solid;
+    border-color: $color_3;
     margin: 5px;
+
+    @include mobile-lg{
+        display: grid;
+        width: 300px;
+        height: auto;
+        border: 5px solid;
+        border-color: $color_3;
+        margin: 15px;
+    }
 }
 
 .tarjeta_texto {
     text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: grey;
+    color: $color_3;
+    background-color: $color_1;
 }
 
 .tarjeta_boton {
-    color: rgb(0, 0, 0);
+    color: $color_3;
     text-align: center;
     margin: 5px;
+}
+
+.img_mobile {
+        height: 300px;
+        width: 100%;
 }

@@ -1,10 +1,30 @@
 /* Recetas  */
 
 .recetas {
-    color: rgb(0, 0, 0);
+    color: $color_3;
     text-align: center;
     text-decoration: underline;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @include mobile-lg {
+        color: $color_3;
+        text-align: center;
+        text-decoration: underline;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.recetas_vid {
+    height: 315px;
+    width: 560px;
+    
+    @include mobile-lg {
+        height: 200px;
+        width: 350px;
+        margin-left: 30px;
+    }
 }

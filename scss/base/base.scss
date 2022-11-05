@@ -57,6 +57,18 @@ p {
     justify-self: center;
     overflow: auto;
 
+    @include mobile-lg {
+        height: 80vh;
+        border: 3px solid;
+        background-color: grey;
+        border-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+
     .main__titulo {
         margin-top: 10px;
         color: $color_3;
@@ -85,6 +97,13 @@ p {
         color: $color_3;
         background-color: $color_1;
         margin: 200px;
+
+        @include mobile-lg {
+            height: auto;
+            width: 50%;
+            margin: auto;
+            margin-top: 50px;
+        }
     }
 
 }

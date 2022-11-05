@@ -6,6 +6,16 @@
     background-color: $color_1;
     position: relative;
     bottom: 0;
+
+    @include mobile-lg {
+        width: 100%;
+        height: 110px;
+        border: 3px solid;
+        border-color: $color_3;
+        background-color: $color_1;
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 .footer_titulo {

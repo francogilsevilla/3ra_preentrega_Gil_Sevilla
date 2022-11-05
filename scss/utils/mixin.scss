@@ -1,0 +1,5 @@
+@mixin mobile-lg {
+    @media (max-width: 1200px) {
+        @content
+    }
+}
