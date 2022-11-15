@@ -18,3 +18,43 @@
     margin-bottom: 15px;
     background-color: $color_1;
 }
+
+.main_centro{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+    @include mobile-lg{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.main_img{
+    height: 350px;
+    width: auto;
+    margin: 3px;
+    object-fit: contain;
+
+    @include mobile-lg {
+        display: flex;
+        height: 300px;
+        width: 100px;
+        object-fit: contain;
+    }
+}
+
+.main_img1{
+    height: 500px;
+    width: auto;
+    margin: 3px;
+    object-fit: contain;
+
+    @include mobile-lg {
+        display: flex;
+        height: 300px;
+        width: 100px;
+        object-fit: contain;
+    }
+}

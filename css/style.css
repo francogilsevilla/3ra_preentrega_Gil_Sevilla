@@ -76,11 +76,11 @@ p {
 }
 .mains .main__text {
   width: auto;
-  height: 200px;
+  height: auto;
   overflow: hidden;
   color: black;
   background-color: grey;
-  margin: 200px;
+  margin: auto;
 }
 @media (max-width: 1200px) {
   .mains .main__text {
@@ -200,6 +200,49 @@ p {
   background-color: grey;
 }
 
+.main_centro {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .main_centro {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.main_img {
+  height: 350px;
+  width: auto;
+  margin: 3px;
+  object-fit: contain;
+}
+@media (max-width: 1200px) {
+  .main_img {
+    display: flex;
+    height: 300px;
+    width: 100px;
+    object-fit: contain;
+  }
+}
+
+.main_img1 {
+  height: 500px;
+  width: auto;
+  margin: 3px;
+  object-fit: contain;
+}
+@media (max-width: 1200px) {
+  .main_img1 {
+    display: flex;
+    height: 300px;
+    width: 100px;
+    object-fit: contain;
+  }
+}
+
 /* Productos */
 .tarjetas {
   color: black;
@@ -207,6 +250,7 @@ p {
   width: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 @media (max-width: 1200px) {
   .tarjetas {
@@ -338,8 +382,8 @@ p {
 .formulario_name {
   text-align: center;
   width: 200px;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   border: 1px solid;
   border-color: black;
 }
@@ -347,14 +391,16 @@ p {
   .formulario_name {
     display: grid;
     width: 100%;
+    margin: 10px;
+    padding: 10px;
   }
 }
 
 .formulario_email {
   text-align: center;
   width: 200px;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   border: 1px solid;
   border-color: black;
 }
@@ -363,14 +409,16 @@ p {
     display: grid;
     grid-row: 2/3;
     width: 100%;
+    margin: 10px;
+    padding: 10px;
   }
 }
 
 .formulario_select {
   text-align: center;
   width: 200px;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   border: 1px solid;
   border-color: black;
 }
@@ -379,14 +427,16 @@ p {
     display: grid;
     grid-row: 3/4;
     width: 100%;
+    margin: 10px;
+    padding: 10px;
   }
 }
 
 .formulario_consulta {
   text-align: center;
   width: 300px;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   border: 1px solid;
   border-color: black;
 }
@@ -395,6 +445,8 @@ p {
     display: grid;
     grid-row: 4/5;
     width: 100%;
+    margin: 10px;
+    padding: 10px;
   }
 }
 
@@ -404,6 +456,26 @@ p {
     grid-row: 5/6;
     width: 100%;
     justify-items: center;
+  }
+}
+
+.formulario_img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.img_contacto {
+  width: auto;
+  height: 355px;
+  display: flex;
+  margin: 5px;
+  margin-left: 25%;
+}
+@media (max-width: 1200px) {
+  .img_contacto {
+    display: none;
   }
 }
 
