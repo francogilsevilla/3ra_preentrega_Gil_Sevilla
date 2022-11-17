@@ -31,30 +31,19 @@
     }
 }
 
-.main_img{
-    height: 350px;
-    width: auto;
-    margin: 3px;
-    object-fit: contain;
-
-    @include mobile-lg {
-        display: flex;
-        height: 300px;
-        width: 100px;
-        object-fit: contain;
-    }
-}
-
-.main_img1{
+.main_img_1{
     height: 500px;
     width: auto;
     margin: 3px;
     object-fit: contain;
+    display: flex;
+    align-self: baseline;
 
-    @include mobile-lg {
-        display: flex;
-        height: 300px;
-        width: 100px;
-        object-fit: contain;
+    &:hover{
+        scale: 1.1;
+    }
+
+    @include mobile-lg{
+        display: none;
     }
 }

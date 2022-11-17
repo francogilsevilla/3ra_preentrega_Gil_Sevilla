@@ -213,33 +213,20 @@ p {
   }
 }
 
-.main_img {
-  height: 350px;
-  width: auto;
-  margin: 3px;
-  object-fit: contain;
-}
-@media (max-width: 1200px) {
-  .main_img {
-    display: flex;
-    height: 300px;
-    width: 100px;
-    object-fit: contain;
-  }
-}
-
-.main_img1 {
+.main_img_1 {
   height: 500px;
   width: auto;
   margin: 3px;
   object-fit: contain;
+  display: flex;
+  align-self: baseline;
+}
+.main_img_1:hover {
+  scale: 1.1;
 }
 @media (max-width: 1200px) {
-  .main_img1 {
-    display: flex;
-    height: 300px;
-    width: 100px;
-    object-fit: contain;
+  .main_img_1 {
+    display: none;
   }
 }
 
