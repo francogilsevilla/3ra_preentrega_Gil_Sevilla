@@ -148,6 +148,8 @@ p {
   display: flex;
   align-content: flex-end;
   padding: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .footer_instagram {
@@ -157,6 +159,8 @@ p {
   display: flex;
   align-content: flex-start;
   padding: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .allheaderstittle {
@@ -253,7 +257,7 @@ p {
 .productoficha {
   border: 3px solid;
   border-color: black;
-  margin: 5px;
+  margin: 20px;
 }
 @media (max-width: 1200px) {
   .productoficha {
@@ -306,6 +310,7 @@ p {
 .recetas_vid {
   height: 315px;
   width: 560px;
+  margin: 10px;
 }
 @media (max-width: 1200px) {
   .recetas_vid {
@@ -319,10 +324,11 @@ p {
 .sucursales {
   text-align: center;
   text-decoration: underline;
-  color: rgb(0, 0, 0);
+  color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 10px;
 }
 @media (max-width: 1200px) {
   .sucursales {
@@ -368,7 +374,7 @@ p {
 
 .formulario_name {
   text-align: center;
-  width: 200px;
+  width: 300px;
   margin: 5px;
   padding: 5px;
   border: 1px solid;
@@ -385,7 +391,7 @@ p {
 
 .formulario_email {
   text-align: center;
-  width: 200px;
+  width: 300px;
   margin: 5px;
   padding: 5px;
   border: 1px solid;
@@ -403,7 +409,7 @@ p {
 
 .formulario_select {
   text-align: center;
-  width: 200px;
+  width: 300px;
   margin: 5px;
   padding: 5px;
   border: 1px solid;

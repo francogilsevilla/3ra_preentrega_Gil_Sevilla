@@ -21,7 +21,7 @@
 .productoficha {
     border: 3px solid;
     border-color: $color_3;
-    margin: 5px;
+    margin: 20px;
 
     @include mobile-lg{
         display: grid;

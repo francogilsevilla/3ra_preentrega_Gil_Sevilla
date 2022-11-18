@@ -3,10 +3,11 @@
 .sucursales {
     text-align: center;
     text-decoration: underline;
-    color: rgb(0, 0, 0);
+    color: $color_3;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 10px;
 
     @include mobile-lg {
         height: auto;

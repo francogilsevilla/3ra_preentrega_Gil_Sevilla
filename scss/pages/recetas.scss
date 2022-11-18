@@ -21,6 +21,7 @@
 .recetas_vid {
     height: 315px;
     width: 560px;
+    margin: 10px;
     
     @include mobile-lg {
         height: 200px;
